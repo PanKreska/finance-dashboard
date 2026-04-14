@@ -1,5 +1,14 @@
+import Header from "./components/Header";
+
 function App() {
-  return <h1>Finance Dashboard</h1>;
+  return (
+    <div className="container">
+      <Header />
+      <main>
+        <p>Tu będzie dashboard...</p>
+      </main>
+    </div>
+  );
 }
 
 export default App;
