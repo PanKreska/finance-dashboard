@@ -20,7 +20,7 @@ export default function TransactionList() {
                     >
                         {t.text} — {t.amount} zł
                         <button onClick={() => deleteTransaction(t.id)}>
-                            ❌
+                            X
                         </button>
                     </li>
                 ))}
